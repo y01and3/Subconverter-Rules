@@ -1,0 +1,59 @@
+[[rename_node]]
+match = "(?i:\\bHK[G]?\\b|Hong.*?Kong|\\bHKT\\b|\\bHKBN\\b|\\bHGC\\b|\\bWTT\\b|\\bCMI\\b|[^-]港)"
+replace = "HK"
+
+[[rename_node]]
+match = "(?i:\\bTW[N]?\\b|Taiwan|新北|彰化|\\bCHT\\b|台湾|[^-]台|\\bHINET\\b)"
+replace = "TW"
+
+[[rename_node]]
+match = "(?i:\\bSG[P]?\\b|Singapore|新加坡|狮城|[^-]新)"
+replace = "SG"
+
+[[rename_node]]
+match = "(?i:\\bJP[N]?\\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|[^-]日)"
+replace = "JP"
+
+[[rename_node]]
+match = "(?i:\\bK[O]?R\\b|Korea|首尔|韩|韓)"
+replace = "KR"
+
+[[rename_node]]
+match = "(?i:\\bUS[A]?\\b|America|United.*?States|美国|[^-]美)"
+replace = "US"
+
+[[rename_node]]
+match = "(Argentina|阿根廷)"
+replace = "AR"
+
+[[rename_node]]
+match = "(?i:\\bCA[N]?\\b|Canada|加拿大|楓葉|枫叶)"
+replace = "CA"
+
+[[rename_node]]
+match = "(?i:\\bDE[U]?\\b|Germany|法兰克福|德(国|意志)|中德|^德$)"
+replace = "DE"
+
+[[rename_node]]
+match = "(?i:\\bFR[A]?\\b|France|法国)"
+replace = "FR"
+
+[[rename_node]]
+match = "(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|英国|[^-]英)"
+replace = "UK"
+
+[[rename_node]]
+match = "(?i:\\bIS[L]?\\b|Iceland|冰岛)"
+replace = "IS"
+
+[[rename_node]]
+match = "(North.*?Korea|朝鲜)"
+replace = "NK"
+
+[[rename_node]]
+match = "(Turkey|土耳其)"
+replace = "TR"
+
+[[rename_node]]
+match = '\(?((x|X)?(\d+)(\.?\d+)?)((\s?倍率?)|(x|X))\)?'
+replace = "$1x"

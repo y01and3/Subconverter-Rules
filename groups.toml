@@ -1,0 +1,115 @@
+[[custom_groups]]
+name = "Proxies"
+type = "select"
+rule = ["[]Urltest", "[]HK", "[]TW", "[]JP", "[]US", "[]SG", "[]TR", "[]AR", ".*"]
+
+[[custom_groups]]
+name = "Urltest"
+type = "url-test"
+rule = [".*"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
+
+[[custom_groups]]
+name = "Apple"
+type = "select"
+rule = ["[]Proxies", "[]DIRECT", "[]HK", "[]TW", "[]JP", "[]US", "[]SG"]
+
+[[custom_groups]]
+name = "Bahamut"
+type = "select"
+rule = ["[]Proxies", "[]TW"]
+
+[[custom_groups]]
+name = "Bilibili"
+type = "select"
+rule = ["[]DIRECT", "[]HK", "[]TW"]
+
+[[custom_groups]]
+name = "YouTube"
+type = "select"
+rule = ["[]Proxies", "[]HK", "[]TW", "[]JP", "[]US", "[]SG"]
+
+[[custom_groups]]
+name = "Telegram"
+type = "select"
+rule = ["[]Proxies", "[]HK", "[]TW", "[]JP", "[]US", "[]SG"]
+
+[[custom_groups]]
+name = "OpenAI"
+type = "select"
+rule = ["[]Proxies", "[]JP", "[]US", "[]SG"]
+
+[[custom_groups]]
+name = "Bing"
+type = "select"
+rule = ["[]Proxies", "[]DIRECT", "[]JP", "[]US", "[]SG"]
+
+[[custom_groups]]
+name = "Google"
+type = "select"
+rule = ["[]Proxies", "[]HK", "[]TW", "[]JP", "[]US", "[]SG", "[]TR"]
+
+[[custom_groups]]
+name = "OneDrive"
+type = "select"
+rule = ["[]Proxies", "[]DIRECT", "[]HK", "[]TW", "[]JP", "[]US", "[]SG"]
+
+[[custom_groups]]
+name = "Steam"
+type = "select"
+rule = ["[]Proxies", "[]DIRECT", "[]HK", "[]TW", "[]JP", "[]US", "[]SG", "[]TR", "[]AR"]
+
+[[custom_groups]]
+name = "Emby"
+type = "select"
+rule = ["[]US", "US"]
+
+[[custom_groups]]
+name = "HK"
+type = "url-test"
+rule = ["HK"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
+
+[[custom_groups]]
+name = "TW"
+type = "url-test"
+rule = ["TW"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
+
+[[custom_groups]]
+name = "JP"
+type = "url-test"
+rule = ["JP"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
+
+[[custom_groups]]
+name = "US"
+type = "url-test"
+rule = ["US"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
+
+[[custom_groups]]
+name = "SG"
+type = "url-test"
+rule = ["SG"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
+
+[[custom_groups]]
+name = "TR"
+type = "url-test"
+rule = ["TR"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
+
+[[custom_groups]]
+name = "AR"
+type = "url-test"
+rule = ["AR"]
+url = "http://detectportal.firefox.com/success.txt"
+interval = 300
