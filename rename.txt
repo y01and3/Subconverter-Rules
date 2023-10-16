@@ -1,29 +1,15 @@
-;(?i:\\bHK[G]?\\b|Hong.*?Kong|\\bHKT\\b|\\bHKBN\\b|\\bHGC\\b|\\bWTT\\b|\\bCMI\\b|[^-]港)@HK
-
-;(?i:\\bTW[N]?\\b|Taiwan|新北 | 彰化|\\bCHT\\b|台湾|[^-]台|\\bHINET\\b)@TW
-
-;(?i:\\bSG[P]?\\b|Singapore|新加坡 | 狮城|[^-]新)@SG
-
-;(?i:\\bJP[N]?\\b|Japan|Tokyo|Osaka|Saitama|日本 | 东京 | 大阪 | 埼玉|[^-]日)@JP
-
-;(?i:\\bK[O]?R\\b|Korea|首尔 | 韩 | 韓)@KR
-
-;(?i:\\bUS[A]?\\b|America|United.*?States|美国|[^-]美)@US
-
-;(Argentina|阿根廷)@AR
-
-;(?i:\\bCA[N]?\\b|Canada|加拿大 | 楓葉 | 枫叶)@CA
-
-;(?i:\\bDE[U]?\\b|Germany|法兰克福 | 德 (国 | 意志)|中德|^德$)@DE
-
-;(?i:\\bFR[A]?\\b|France|法国)@FR
-
-;(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|英国|[^-]英)@UK
-
-;(?i:\\bIS[L]?\\b|Iceland|冰岛)@IS
-
-;(North.*?Korea|朝鲜)@NK
-
-;(Turkey|土耳其)@TR
-
+(?i:\\bHK[G]?\\b|Hong.*?Kong|\\bHKT\\b|\\bHKBN\\b|\\bHGC\\b|\\bWTT\\b|\\bCMI\\b|[^-]港)@HK
+(?i:\\bTW[N]?\\b|Taiwan|新北 | 彰化|\\bCHT\\b|台湾|[^-]台|\\bHINET\\b)@TW
+(?i:\\bSG[P]?\\b|Singapore|新加坡 | 狮城|[^-]新)@SG
+(?i:\\bJP[N]?\\b|Japan|Tokyo|Osaka|Saitama|日本 | 东京 | 大阪 | 埼玉|[^-]日)@JP
+(?i:\\bK[O]?R\\b|Korea|首尔 | 韩 | 韓)@KR
+(?i:\\bUS[A]?\\b|America|United.*?States|美国|[^-]美)@US
+(Argentina|阿根廷)@AR
+(?i:\\bCA[N]?\\b|Canada|加拿大 | 楓葉 | 枫叶)@CA
+(?i:\\bDE[U]?\\b|Germany|法兰克福 | 德 (国 | 意志)|中德|^德$)@DE
+(?i:\\bFR[A]?\\b|France|法国)@FR
+(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|英国|[^-]英)@UK
+(?i:\\bIS[L]?\\b|Iceland|冰岛)@IS
+(North.*?Korea|朝鲜)@NK
+(Turkey|土耳其)@TR
 \(?((x|X)?(\d+)(\.?\d+)?)((\s？倍率？)|(x|X))\)?@$1x
