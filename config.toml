@@ -1,8 +1,8 @@
 version = 1
 [custom]
 enable_rule_generator = false
-overwrite_original_rules = ture
-
+overwrite_original_rules = true
+ 
 # Options for custom base configuration file
 clash_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
 surge_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
