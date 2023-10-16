@@ -19,83 +19,14 @@ remove_old_emoji = true
 #include_remarks = []
 #exclude_remarks = []
 
-[[rename_node]]
-import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rename.toml"
-
 [[custom_groups]]
 import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/groups.toml"
 
 [[rulesets]]
-group = "Proxies"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list"
+import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rules.toml"
 
-[[rulesets]]
-group = "Apple"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list"
-
-[[rulesets]]
-group = "Bahamut"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Bahamut.list"
-
-[[rulesets]]
-group = "Bilibili"
-ruleset = "https://raw.githubusercontent.com/y01and3/Rules/yolande/RuleSet/Bilibili.list"
-
-[[rulesets]]
-group = "YouTube"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list"
-
-[[rulesets]]
-group = "Telegram"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list"
-
-[[rulesets]]
-group = "OpenAI"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/OpenAI/OpenAI.list"
-
-[[rulesets]]
-group = "Bing"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Bing/Bing.list"
-
-[[rulesets]]
-group = "Bing"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/MicrosoftEdge.list"
-
-[[rulesets]]
-group = "Google"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Google/Google.list"
-
-[[rulesets]]
-group = "OneDrive"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/OneDrive.list"
-
-[[rulesets]]
-group = "Steam"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Game/Steam.list"
-
-[[rulesets]]
-group = "Emby"
-ruleset = "https://raw.githubusercontent.com/y01and3/Rules/yolande/RuleSet/Emby.list"
-
-[[rulesets]]
-group = "DIRECT"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list"
-
-[[rulesets]]
-group = "REJECT"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Reject.list"
-
-[[rulesets]]
-group = "REJECT"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Guard/Hijacking.list"
-
-[[rulesets]]
-group = "DIRECT"
-ruleset = "[]GEOIP,CN"
-
-[[rulesets]]
-group = "Proxies"
-ruleset = "[]MATCH"
+[[rename]]
+import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rename.toml"
 
 
 #[[template_args]]
