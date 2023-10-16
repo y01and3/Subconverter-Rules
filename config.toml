@@ -4,12 +4,12 @@ enable_rule_generator = false
 overwrite_original_rules = ture
 
 # Options for custom base configuration file
-clash_rule_base = ""
-surge_rule_base = ""
-surfboard_rule_base = ""
-mellow_rule_base = ""
-quan_rule_base = ""
-quanx_rule_base = ""
+clash_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
+surge_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
+surfboard_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
+mellow_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
+quan_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
+quanx_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
 
 # Options for adding emojis
 add_emoji = true
@@ -20,13 +20,13 @@ remove_old_emoji = true
 #exclude_remarks = []
 
 [[custom_groups]]
-import = ""
+import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/groups.toml"
 
 [[rulesets]]
-import = ""
+import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rules.toml"
 
 [[rename]]
-import = ""
+import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rename.toml"
 
 
 #[[template_args]]

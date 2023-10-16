@@ -8,9 +8,14 @@ log-level: {{ default(local.clash.log_level, "info") }}
 external-controller: :9090
 
 dns:
-  enable: true
-  listen: 127.0.0.1:8853
+  enable: true # 是否启用dns false
   ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host # 模式：redir-host或fake-ip
+  fake-ip-range: 198.18.0.1/16 #
+  fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
+     #- '*.lan'
+     #- localhost.ptlogin2.qq.com
   nameserver:
     - 223.5.5.5
     - tls://223.5.5.5:853
@@ -22,6 +27,10 @@ dns:
     - tls://dns.google:853
     - https://cloudflare-dns.com/dns-query
     - https://dns.google/dns-query
+  fallback-filter:
+    geoip: true # 默认
+    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
+      - 240.0.0.0/4
 
 
 {% if local.clash.new_field_name == "true" %}
