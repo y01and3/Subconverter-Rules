@@ -29,6 +29,9 @@ ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Rule
 [[rulesets]]
 group = "Bing"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Bing/Bing.list"
+
+[[rulesets]]
+group = "Bing"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Microsoft/MicrosoftEdge.list"
 
 [[rulesets]]
