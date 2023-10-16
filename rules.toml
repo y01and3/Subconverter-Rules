@@ -1,4 +1,8 @@
 [[rulesets]]
+group = "Proxies"
+ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list"
+
+[[rulesets]]
 group = "Apple"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list"
 
@@ -46,14 +50,19 @@ ruleset = "https://raw.githubusercontent.com/y01and3/Rules/yolande/RuleSet/Emby.
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list"
-ruleset = "[]GEOIP,CN"
 
 [[rulesets]]
 group = "REJECT"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Reject.list"
+
+[[rulesets]]
+group = "REJECT"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Guard/Hijacking.list"
 
 [[rulesets]]
+group = "DIRECT"
+ruleset = "[]GEOIP,CN"
+
+[[rulesets]]
 group = "Proxies"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list"
 ruleset = "[]MATCH"
