@@ -26,7 +26,7 @@ import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rena
 import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/groups.toml"
 
 [[rulesets]]
-import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rules.toml"
+import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rules.txt"
 
 #[[template_args]]
 #key = "clash.dns.port"
