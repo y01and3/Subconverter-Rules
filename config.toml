@@ -19,6 +19,9 @@ remove_old_emoji = true
 #include_remarks = []
 #exclude_remarks = []
 
+[[rename_node]]
+import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rename.toml"
+
 [[custom_groups]]
 import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/groups.toml"
 
@@ -93,9 +96,6 @@ ruleset = "[]GEOIP,CN"
 [[rulesets]]
 group = "Proxies"
 ruleset = "[]MATCH"
-
-[[rename_node]]
-import = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/rename.toml"
 
 
 #[[template_args]]
