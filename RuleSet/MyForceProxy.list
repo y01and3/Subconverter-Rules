@@ -1,0 +1,4 @@
+DOMAIN-SUFFIX,rcore-os.cn
+IP-CIDR,140.82.112.0/20,no-resolve
+IP-CIDR,143.55.64.0/20,no-resolve
+IP-CIDR,192.30.252.0/22,no-resolve

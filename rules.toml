@@ -1,4 +1,24 @@
 [[rulesets]]
+group = "REJECT"
+ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Reject.list"
+type = "surge-ruleset"
+
+[[rulesets]]
+group = "REJECT"
+ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Guard/Hijacking.list"
+type = "surge-ruleset"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/RuleSet/MyForceDirect.list"
+type = "surge-ruleset"
+
+[[rulesets]]
+group = "Proxies"
+ruleset = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/RuleSet/MyForceProxy.list"
+type = "surge-ruleset"
+
+[[rulesets]]
 group = "Telegram"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list"
 type = "surge-ruleset"
@@ -10,7 +30,7 @@ type = "surge-ruleset"
 
 [[rulesets]]
 group = "Bilibili"
-ruleset = "https://raw.githubusercontent.com/y01and3/Rules/yolande/RuleSet/Bilibili.list"
+ruleset = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/RuleSet/Bilibili.list"
 type = "surge-ruleset"
 
 [[rulesets]]
@@ -50,7 +70,7 @@ type = "surge-ruleset"
 
 [[rulesets]]
 group = "Emby"
-ruleset = "https://raw.githubusercontent.com/y01and3/Rules/yolande/RuleSet/Emby.list"
+ruleset = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/RuleSet/Emby.list"
 type = "surge-ruleset"
 
 [[rulesets]]
@@ -66,16 +86,6 @@ type = "surge-ruleset"
 [[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list"
-type = "surge-ruleset"
-
-[[rulesets]]
-group = "REJECT"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Reject.list"
-type = "surge-ruleset"
-
-[[rulesets]]
-group = "REJECT"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Guard/Hijacking.list"
 type = "surge-ruleset"
 
 [[rulesets]]
