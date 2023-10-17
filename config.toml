@@ -12,7 +12,7 @@ quan_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/m
 quanx_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
 
 # Options for adding emojis
-add_emoji = true
+add_emoji = false
 remove_old_emoji = true
 
 # Options for filtering nodes
