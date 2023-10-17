@@ -39,7 +39,7 @@ match = "(?i:\\bFR[A]?\\b|France|法国)"
 replace = "FR"
 
 [[rename_node]]
-match = "(?i:\\bUK\\b|\\bGB[R]?\\b|England|United.*?Kingdom|英国|[^-]英)"
+match = "(?i:\\bUK\\b|(^(?!.*(流量|Traffic)).*(\\bGB[R]?\\b))|England|United.*?Kingdom|英国|[^-]英)"
 replace = "UK"
 
 [[rename_node]]
