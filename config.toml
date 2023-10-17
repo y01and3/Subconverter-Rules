@@ -3,6 +3,9 @@ version = 1
 enable_rule_generator = true
 overwrite_original_rules = true
 
+udp_flag = true
+tcp_fast_open_flag = true
+
 # Options for custom base configuration file
 clash_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
 surge_rule_base = "https://raw.githubusercontent.com/y01and3/Subconverter-Rules/main/base.tpl"
