@@ -15,7 +15,7 @@ match = "(?i:\\bJP[N]?\\b|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|
 replace = "JP"
 
 [[rename_node]]
-match = "(?i:\\bK[O]?R\\b|South.*Korea|首尔|韩|韓)"
+match = "(?i:\\bK[O]?R\\b|South.*Korea|首尔|韩(国)|韓)"
 replace = "KR"
 
 [[rename_node]]
