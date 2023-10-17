@@ -63,7 +63,12 @@ rule = ["[]Proxies", "[]DIRECT", "[]HK", "[]TW", "[]JP", "[]US", "[]SG", "[]TR",
 [[custom_groups]]
 name = "Emby"
 type = "select"
-rule = ["[]US", "US"]
+rule = ["[]US", "US", "Emby"]
+
+[[custom_groups]]
+name = "Final"
+type = "select"
+rule = ["[]Proxies", "[]DIRECT"]
 
 [[custom_groups]]
 name = "HK"

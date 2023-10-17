@@ -1,11 +1,6 @@
 [[rulesets]]
-group = "Proxies"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list"
-type = "surge-ruleset"
-
-[[rulesets]]
-group = "Apple"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list"
+group = "Telegram"
+ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list"
 type = "surge-ruleset"
 
 [[rulesets]]
@@ -21,11 +16,6 @@ type = "surge-ruleset"
 [[rulesets]]
 group = "YouTube"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list"
-type = "surge-ruleset"
-
-[[rulesets]]
-group = "Telegram"
-ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list"
 type = "surge-ruleset"
 
 [[rulesets]]
@@ -64,6 +54,16 @@ ruleset = "https://raw.githubusercontent.com/y01and3/Rules/yolande/RuleSet/Emby.
 type = "surge-ruleset"
 
 [[rulesets]]
+group = "Proxies"
+ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Global.list"
+type = "surge-ruleset"
+
+[[rulesets]]
+group = "Apple"
+ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Extra/Apple/Apple.list"
+type = "surge-ruleset"
+
+[[rulesets]]
 group = "DIRECT"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/China.list"
 type = "surge-ruleset"
@@ -83,5 +83,5 @@ group = "DIRECT"
 ruleset = "[]GEOIP,CN"
 
 [[rulesets]]
-group = "Proxies"
+group = "Final"
 ruleset = "[]MATCH"
