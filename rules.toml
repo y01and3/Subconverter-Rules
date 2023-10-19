@@ -93,5 +93,17 @@ group = "DIRECT"
 ruleset = "[]GEOIP,CN"
 
 [[rulesets]]
+group = "DIRECT"
+ruleset = "IP-CIDR,10.0.0.0/8"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "IP-CIDR,172.16.0.0/12"
+
+[[rulesets]]
+group = "DIRECT"
+ruleset = "IP-CIDR,192.168.0.0/16"
+
+[[rulesets]]
 group = "Final"
 ruleset = "[]MATCH"
