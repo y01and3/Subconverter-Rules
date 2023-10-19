@@ -38,11 +38,11 @@ dns:
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
 proxy-groups: ~
+rules: ~
 rules: 
   - IP-CIDR,10.0.0.0/8,DIRECT
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
-  ~
 {% else %}
 Proxy: ~
 Proxy Group: ~
