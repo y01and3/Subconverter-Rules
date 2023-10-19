@@ -1,16 +1,4 @@
 [[rulesets]]
-group = "DIRECT"
-ruleset = "IP-CIDR,10.0.0.0/8"
-
-[[rulesets]]
-group = "DIRECT"
-ruleset = "IP-CIDR,172.16.0.0/12"
-
-[[rulesets]]
-group = "DIRECT"
-ruleset = "IP-CIDR,192.168.0.0/16"
-
-[[rulesets]]
 group = "REJECT"
 ruleset = "https://raw.githubusercontent.com/AGWA5783/Profiles/master/Surge/Ruleset/Reject.list"
 type = "surge-ruleset"
