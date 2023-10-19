@@ -31,6 +31,8 @@ dns:
     geoip: true # 默认
     ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
       - 240.0.0.0/4
+  nameserver-policy:
+    '+.hdu.edu.cn': '210.32.32.10'
 
 
 {% if local.clash.new_field_name == "true" %}
