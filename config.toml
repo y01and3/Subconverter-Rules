@@ -1,7 +1,7 @@
 version = 1
 [custom]
 enable_rule_generator = true
-overwrite_original_rules = true
+overwrite_original_rules = false
 
 udp_flag = true
 tcp_fast_open_flag = true
